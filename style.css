@@ -1,115 +1,140 @@
-@media screen {
-    * {
-        box-sizing: border-box;
-    }
-    body {
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        line-height: 160%;
-    }
-    a {
-        text-decoration: none;
-        color: black;
-    }
-    .conteiner {
-        background-color: rgba(21, 74, 247, 0.068);
-        margin: 0 auto;
-        max-width: 1024px;
-        padding: 5%;
-    }
-    h1 {
-        text-align: center;
-    }
-    img,
-    .project__link {
-        border: 1px gray solid;
-        border-radius: 4px;
-    }
-    .image {
-        max-width: 250px;
-    }
-    header {
-        display: flex;
-        justify-content: space-around;
-    }
-    .contact {
-        margin: 3%;
-    }
-    .contact__title {
-        color: rgba(0, 0, 255, 0.582);
-    }
-    main {
-        display: flex;
-        flex-wrap: wrap;
-        font-size: 1em;
-    }
-    .project__inner {
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-    }
-    .project {
-        margin: 1%;
-    }
-    .project:hover .project__title {
-        color: rgba(0, 0, 255, 0.582);
-    }
-    .project__title {
-        display: block;
-        font-size: larger;
-        font-weight: 600;
-        text-align: center;
-        padding: 3%;
-        text-transform: uppercase;
-    }
-    .project__container {
-        position: relative;
-    }
-    .project__image {
-        margin: 0 auto;
-        max-width: 400px;
-        z-index: 0;
-    }
-    .project__link {
-        position: absolute;
-        left: 25%;
-        color: rgba(0, 0, 255, 0.582);
-        font-size: 1.5em;
-        opacity: 0;
-        background-color: rgba(21, 74, 247, 0.185);
-        width: 200px;
-        height: 30px;
-        text-align: center;
-    }
-    .project__link_code {
-        top: 55%;
-    }
-    .project__link_website {
-        top: 25%;
-    }
-    .project:hover .project__image {
-        opacity: 0.3;
-    }
-    .project:hover .project__link {
-        opacity: 1;
-    }
-    footer {
-        margin: 3% 0;
-        background-color: rgba(21, 74, 247, 0.185);
-        height: 5%;
-        display: flex;
-        justify-content: space-around;
-        padding: 2%;
-    }
-    .footer__text {
-        max-width: 30%;
-    }
-    .footer__contact {
-        display: block;
-        color: rgba(0, 0, 255, 0.582);
-    }
+* {
+    box-sizing: border-box;
 }
 
-@media screen and (max-width:768px) {
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 160%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.conteiner {
+    background-color: rgba(21, 74, 247, 0.068);
+    margin: 0 auto;
+    max-width: 1024px;
+    padding: 5%;
+}
+
+h1 {
+    text-align: center;
+}
+
+img,
+.project__link {
+    border: 1px gray solid;
+    border-radius: 4px;
+}
+
+.image {
+    max-width: 250px;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact {
+    margin: 3%;
+}
+
+.contact__title {
+    color: rgba(0, 0, 255, 0.582);
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1em;
+}
+
+.project__inner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.project {
+    margin: 1%;
+}
+
+.project:hover .project__title {
+    color: rgba(0, 0, 255, 0.582);
+}
+
+.project__title {
+    display: block;
+    font-size: larger;
+    font-weight: 600;
+    text-align: center;
+    padding: 3%;
+    text-transform: uppercase;
+}
+
+.project__container {
+    position: relative;
+}
+
+.project__image {
+    margin: 0 auto;
+    max-width: 400px;
+    z-index: 0;
+}
+
+.project__link {
+    position: absolute;
+    left: 25%;
+    color: rgba(0, 0, 255, 0.582);
+    font-size: 1.5em;
+    opacity: 0;
+    background-color: rgba(21, 74, 247, 0.185);
+    width: 200px;
+    height: 30px;
+    text-align: center;
+}
+
+.project__link_code {
+    top: 55%;
+}
+
+.project__link_website {
+    top: 25%;
+}
+
+.project:hover .project__image {
+    opacity: 0.3;
+}
+
+.project:hover .project__link {
+    opacity: 1;
+}
+
+footer {
+    margin: 3% 0;
+    background-color: rgba(21, 74, 247, 0.185);
+    height: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5%;
+}
+
+.footer__text {
+    max-width: 30%;
+    margin: 0%;
+}
+
+.footer__contact {
+    display: block;
+    color: rgba(0, 0, 255, 0.582);
+    padding-top: 4%;
+}
+
+@media (max-width:768px) and (orientation: portrait) {
     header {
         flex-wrap: wrap;
     }
@@ -133,5 +158,3 @@
         justify-content: space-around;
     }
 }
-
-@media screen and (max-width:480px) {}
