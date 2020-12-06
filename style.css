@@ -30,7 +30,8 @@ img,
 }
 
 .image {
-    max-width: 250px;
+    max-width: 300px;
+    max-height: 400px;
 }
 
 header {
