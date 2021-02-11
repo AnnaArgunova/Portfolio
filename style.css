@@ -80,6 +80,15 @@ main {
     position: relative;
 }
 
+.project__text{
+    max-width: 400px;
+    height: 50px;
+}
+
+.project__text_title{
+    font-weight: bold;
+}
+
 .project__image {
     margin: 0 auto;
     max-width: 400px;
@@ -99,11 +108,11 @@ main {
 }
 
 .project__link_code {
-    top: 55%;
+    top: 65%;
 }
 
 .project__link_website {
-    top: 25%;
+    top: 35%;
 }
 
 .project:hover .project__image {
